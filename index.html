@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-FinSol Consulting | Business Solutions, Tax, Website Development</title>
+        
+        <!-- Meta Description -->
+        <meta name="description" content="Boost your business with E-FinSol Consulting! Expert in tax administration, audit, business development, POS, e-commerce, website development & more.">
+    
+        <!-- Meta Keywords -->
+        <meta name="keywords" content="business consulting services, financial advisory, tax administration in Nigeria, audit and advisory, accounting system setup, business training, POS services, cyber cafe services, e-commerce solutions, website development services, online shopping, digital printing, business feasibility studies, entrepreneurship consulting, graphic design services, online applications, business registration services, startup funding, business growth strategies, affordable web development, small business consulting, business center services, tax compliance solutions, business development operations, SME digital solutions, branding and marketing services, research and data analysis, financial planning for startups, website SEO services, corporate branding, business loan advisory, corporate training services, business solutions in Nigeria">
+    
+        <!-- Open Graph (For Social Media) -->
+        <meta property="og:title" content="E-FinSol Consulting | Business & Financial Solutions">
+        <meta property="og:description" content="We provide expert tax administration, audit, business development, POS services, e-commerce solutions, website development, and financial consulting.">
+        <meta property="og:image" content="https://wapka-cdn.zuna.id/00fka7/2e76229e5137587e5526d27942bb5b89/e-finsol.jpg">
+        <meta property="og:url" content="https://your-website-url.com">
+        <meta property="og:type" content="website">
+    
+        <!-- Favicon (Optional) -->
+        <link rel="icon" type="image/png" href="favicon.png">
+    
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="style.css">
+
+
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "E-FinSol Consulting Services",
+              "image": "https://wapka-cdn.zuna.id/00fka7/2e76229e5137587e5526d27942bb5b89/e-finsol.jpg",
+              "description": "E-FinSol Consulting provides business consulting, tax services, financial advisory, website development, e-commerce solutions, and digital services in Nigeria.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "First Floor, Emmanuel Plaza, Omagwa Station, Ikwerre LGA, Rivers State",
+                "addressLocality": "Rivers State",
+                "addressCountry": "NG"
+              },
+              "email": "efinsolconsultingservices@gmail.com",
+              "telephone": "+2348139032434"
+            }
+
+
+            </script>
+            
+    </head>
+    
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo"><img src="logo.png" alt="logo-image" class="logo-img"></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="coputer.jpg" alt="" class="hero-image">
+        <img src="logo.png" alt="" class="hero-logo">
+        <div class="hero-text">We provide Financial and Business solutions</div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro">
+        <p>
+            E-FinSol Consulting Services is a forward-thinking financial and business solutions platform aimed at improving efficiency of clients that subscribe to her services.
+        </p>
+        <div class="image-container"><img src="photo1.jpeg" alt="" class="slide-in"></div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" >
+        <h2 id="service">Our Services</h2>
+        <ul>
+            <li>Tax Administration & Orientations</li>
+            <li>Audit/Advisory Functions</li>
+            <li>Account System Appropriation</li>
+            <li>Business / Accounting Trainings</li>
+        </ul>
+    </section>
+
+    <!-- BUSINESS SERVICES -->
+    <section class="business-services">
+        <h2>Business Services</h2>
+        <ul>
+            <li>Business Center Services</li>
+            <li>Website Development</li>
+            <li>POS Services</li>
+            <li>Online Shopping</li>
+            <li>Business Development Operations</li>
+            <li>Cyber Cafe</li>
+            <li>Computer Training</li>
+            <li>Online Application</li>
+            <li>E-Commerce</li>
+        </ul>
+    </section>
+
+    <section class="digital-printing">
+        <div class="image-container">
+            <h2 class="overlay-text">Telefinsol DIGITAL PRINTING<br>LARGE FORMAT</h2>
+            <img src="p-image.jpg" alt="Printing Services" style="width: 100%; max-width: 800px; border-radius: 10px;">
+        </div>
+        <div class="printing-services">
+            <p>Stickers (SAV)</p>
+            <p>Reflective stickers (SAV)</p>
+            <p>Matt stickers</p>
+            <p>Window graphics</p>
+            <p>Reflective flex banner</p>
+            <p>Flex banners (outdoors/indoor)</p>
+            <p>Lamppost / pocketing (by print and fit)</p>
+            <p>Roll up stands (on pet or easy banner materials)</p>
+            <p>Document prints</p>
+            <p>Business cards</p>
+            <p>Flyers</p>
+            <p>Brochures</p>
+            <p>Bags & DI</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <footer>
+        <p>📍 First floor, Emmanuel Plaza, Omagwa Station, Ikwerre LGA, Rivers State</p>
+        <p>✉️ <a href="mailto:efinsolconsultingservices@gmail.com">efinsolconsultingservices@gmail.com</a></p>
+        <p>📞 08139032434 , 08064883732</p>
+        <p>© 2025 E-FinSol Consulting. All rights reserved.</p>
+    </footer>
+
+
+
+    <script>
+        document.querySelector(".menu-toggle").addEventListener("click", function () {
+        document.querySelector(".nav-links").classList.toggle("active");
+    });
+    
+    function onScroll() {
+        const image = document.querySelector('.slide-in');
+        const rect = image.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+    
+        if (rect.top < windowHeight - 100) {
+            image.classList.add('visible');
+        }
+    }
+    
+    window.addEventListener('scroll', onScroll);
+    window.addEventListener('load', onScroll);
+    </script>
+</body>
+</html>
+
+
+
